@@ -700,7 +700,7 @@ pre[class*="language-"] {
 .content-col, .pagination, .read-next, .site-footer__block, .posts, .post {
   position: relative;
   width: 100%;
-  max-width: 710px;
+  max-width: 840px;
   margin: 40px auto;
   padding: 20px;
 }
