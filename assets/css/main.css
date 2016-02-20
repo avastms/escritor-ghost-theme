@@ -1082,7 +1082,7 @@ pre[class*="language-"] {
   color: #333;
 }
 .post-template .post {
-  padding: 40px;
+  padding: 2rem;
 }
 .post:hover {
   box-shadow: 0 1px 6px rgba(50, 50, 50, 0.5);
