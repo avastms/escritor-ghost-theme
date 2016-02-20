@@ -498,7 +498,7 @@ table {
 }
 
 html {
-  font-family: "Crimson Text", Georgia, sans-serif;
+  font-family: Georgia, sans-serif;
   font-size: 62.5%;
 }
 
@@ -510,7 +510,8 @@ body {
 
 a {
   text-decoration: none;
-  transition: all 150ms ease;
+  -webkit-transition: all 150ms ease;
+          transition: all 150ms ease;
   color: #BDB099;
 }
 a:hover {
@@ -520,7 +521,7 @@ a:hover {
 h1, h2, h3, h4, h5 {
   margin-bottom: 10px;
   line-height: 1;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #000;
 }
@@ -554,6 +555,7 @@ pre[class*="language-"] {
   word-wrap: normal;
   line-height: 1.5;
   -moz-tab-size: 4;
+  -o-tab-size: 4;
   tab-size: 4;
   -webkit-hyphens: none;
   -moz-hyphens: none;
@@ -734,7 +736,7 @@ pre[class*="language-"] {
   right: 5px;
   border-radius: 3px;
   z-index: 20;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #FFF;
   text-transform: uppercase;
   color: #000;
@@ -774,7 +776,8 @@ pre[class*="language-"] {
   height: 2px;
   background: #000;
   margin-bottom: 4px;
-  transition: all 150ms ease;
+  -webkit-transition: all 150ms ease;
+          transition: all 150ms ease;
 }
 .menu-toggle:hover .bar {
   background: #D1C8B8;
@@ -795,9 +798,10 @@ pre[class*="language-"] {
   margin-bottom: 0;
   text-align: left;
   color: #FFF;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   overflow-y: auto;
-  transition: all 150ms ease;
+  -webkit-transition: all 150ms ease;
+          transition: all 150ms ease;
   -webkit-transform: translate3d(10%, 0, 0);
           transform: translate3d(10%, 0, 0);
   overflow-y: auto;
@@ -859,7 +863,8 @@ pre[class*="language-"] {
   height: 1px;
   background: #333;
   margin: 10px 0;
-  transition: all 150ms ease;
+  -webkit-transition: all 150ms ease;
+          transition: all 150ms ease;
 }
 .nav__link:hover:after {
   background: #FFF;
@@ -1051,7 +1056,8 @@ pre[class*="language-"] {
   background: #FFF;
   padding: 0;
   box-shadow: 0 1px 2px rgba(50, 50, 50, 0.5);
-  transition: all 150ms ease;
+  -webkit-transition: all 150ms ease;
+          transition: all 150ms ease;
 }
 @media screen and (min-width: 480px) {
   .post {
@@ -1288,7 +1294,8 @@ pre[class*="language-"] {
   margin-right: 1rem;
 }
 .icon-share svg {
-  transition: all 150ms ease;
+  -webkit-transition: all 150ms ease;
+          transition: all 150ms ease;
 }
 .icon-share:hover svg {
   fill: #D1C8B8;
